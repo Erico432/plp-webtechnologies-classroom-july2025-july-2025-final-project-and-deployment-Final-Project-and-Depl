@@ -6,7 +6,12 @@ Its main purpose is to promote wellness services, share resources, and allow use
 The design emphasizes **clean aesthetics, accessibility, and interactivity**, making it suitable for wellness centers, fitness trainers, nutritionists, or lifestyle coaches.
 
 ---
+## 🌍 Live Demo
 
+You can view the deployed project here:  
+🔗 **[Managed Wellness Website](https://plp-webtechnologies-classroom-july2-opal.vercel.app/)**  
+
+---
 ## 🌿 Features
 
 - **Homepage Overview** – A welcoming landing page with highlights of the wellness philosophy.  
