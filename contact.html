@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Managed Wellness Centre</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+        header {
+        background-image: url('Managed Wellness/1653303699-o-INSPIRATIONAL-QUOTES-facebook.jpg'); color: #fff; padding: 20px 0; text-align: center; 
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background: #34495E;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+        }
+        nav ul li a:hover {
+            background: #1ABC9C;
+        }
+        .container {
+            flex: 1;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        footer {
+            background: #2C3E50;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .logo {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+        .contact-form, .contact-info, .map, .faq, .social-media {
+            background: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .contact-form {
+            max-width: 600px;
+        }
+        .contact-form h2, .contact-info h2, .faq h2, .social-media h2 {
+            color: #1ABC9C;
+            margin-top: 0;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contact-form input[type="text"], .contact-form input[type="email"] {
+            height: 40px;
+        }
+        .contact-form textarea {
+            height: 150px;
+            resize: vertical;
+        }
+        .contact-form button {
+            background: #1ABC9C;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        .contact-form button:hover {
+            background: #16A085;
+        }
+        .contact-info p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .contact-info p a {
+            color: #1ABC9C;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-info p a:hover {
+            text-decoration: underline;
+        }
+        .map iframe {
+            width: 100%;
+            height: 300px; 
+            border: 0;
+            border-radius: 8px;
+        }
+        .faq {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .faq-item {
+            margin-bottom: 15px;
+        }
+        .faq-item h3 {
+            margin: 0;
+            color: #1ABC9C;
+        }
+        .faq-item p {
+            margin: 5px 0;
+        }
+        .social-media {
+            text-align: center;
+        }
+        .social-media a {
+            text-decoration: none;
+            color: #1ABC9C;
+            font-size: 24px;
+            margin: 0 10px;
+        }
+        .social-media a:hover {
+            color: #16A085;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Managed Wellness/OIP (13).jpg" alt="Managed Wellness Centre Logo" class="logo">
+        <h1>Managed Wellness Centre</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+       
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required>
+
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+                <button type="button" style="background: #34495E;" onclick="alert('Details sent!')">Send Details</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Phone:</strong></p>
+            <p>+254 722 720 072</p>
+            <p>+254 780 838 333</p>
+            <p><strong>Email:</strong> <a href="mailto:info@managedwellness.fit">info@managedwellness.fit</a></p>
+        </div>
+
+        
+        <div class="map">
+            <h2>Find Us</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.4411295141164!2d-122.0862460846818!3d37.38605197982515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5a2956e79e9%3A0x90f2a299c2c40883!2sGoogleplex!5e0!3m2!1sen!2sus!4v1626941216886!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>How can I schedule an appointment?</h3>
+                <p>You can schedule an appointment by calling us directly or using the online booking form on our website.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What should I bring to my first appointment?</h3>
+                <p>Please bring any relevant medical records, a list of medications you are taking, and any other documents that might be helpful.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Do you accept insurance?</h3>
+                <p>Yes, we accept a variety of insurance plans. Please contact us to verify if we accept your specific plan.</p>
+            </div>
+        </div>
+
+        
+        <div class="social-media">
+            <h2>Follow Us</h2>
+            <a href="https://facebook.com/yourpage" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/yourprofile" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/yourprofile" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com/company/yourcompany" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Managed Wellness Centre. All rights reserved.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
