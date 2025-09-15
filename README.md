@@ -1,90 +1,58 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Managed Wellness Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+The **Managed Wellness Website** is a modern, responsive, and easy-to-use web project developed using **HTML, CSS, and JavaScript**.  
+Its main purpose is to promote wellness services, share resources, and allow users to connect easily with a wellness provider or organization.  
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
-
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+The design emphasizes **clean aesthetics, accessibility, and interactivity**, making it suitable for wellness centers, fitness trainers, nutritionists, or lifestyle coaches.
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## 🌿 Features
 
-Using your plan, begin building:
+- **Homepage Overview** – A welcoming landing page with highlights of the wellness philosophy.  
+- **Navigation Highlighting** – Active page links are highlighted dynamically for better UX.  
+- **Back to Top Button** – Smooth scroll back to top of the page.  
+- **Light/Dark Theme Toggle** – Saves your theme preference using `localStorage`.  
+- **Services Page** – Displays wellness services such as fitness programs, nutrition plans, or counseling.  
+- **About Page** – Provides information about the mission, vision, and team behind the wellness brand.  
+- **Contact Form Validation** – Built-in client-side validation with a demo success message.  
+- **Image Lightbox** – Allows users to click and enlarge images for better viewing (gallery/resources).  
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## ⚙️ Installation & Usage
 
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+1. **Download** the project ZIP and extract it.  
+2. Open `index.html` in any modern browser (Chrome, Firefox, Edge, Safari).  
+3. Explore the pages using the navigation bar.  
+4. Try out interactive features like the **theme toggle**, **lightbox**, and **form validation**.  
+5. Optionally, host the site on a free/static hosting service such as **GitHub Pages**, **Netlify**, or **Vercel**.  
 
 ---
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+## 📝 Notes
 
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+- The **contact form** is currently demo-only. To make it functional:
+  - Add a backend (PHP, Node.js, or a service like Formspree).  
+  - Update `contact.html` and adjust the handler in `assets/js/main.js`.  
+- The site uses **vanilla HTML, CSS, and JavaScript** (no frameworks), making it lightweight and easy to customize.  
+- The design is mobile-friendly and can be further enhanced with media queries.  
 
 ---
 
-## Deliverables
+## 🔮 Future Improvements
 
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+- Add a **blog section** for sharing wellness tips and articles.  
+- Implement **appointment booking** or class scheduling.  
+- Connect the **contact form** to an email service or database.  
+- Add **multilingual support** for a wider audience.  
+- Expand the **gallery** with categorized wellness resources.  
 
 ---
 
-## Outcome
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+
+
+
+
